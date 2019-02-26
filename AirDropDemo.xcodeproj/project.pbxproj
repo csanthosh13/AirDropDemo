@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4BFB3C91DB61C560072BA92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFB3C81DB61C560072BA92 /* AppDelegate.swift */; };
+		F4BFB3CE1DB61C560072BA92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4BFB3CC1DB61C560072BA92 /* Main.storyboard */; };
+		F4BFB3D01DB61C560072BA92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4BFB3CF1DB61C560072BA92 /* Assets.xcassets */; };
+		F4BFB3D31DB61C560072BA92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4BFB3D11DB61C560072BA92 /* LaunchScreen.storyboard */; };
+		F4BFB3DB1DB61C8E0072BA92 /* AirDropTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFB3DA1DB61C8E0072BA92 /* AirDropTableViewController.swift */; };
+		F4BFB3E31DB61DAC0072BA92 /* 10 Great iPhone Tips.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F4BFB3DD1DB61DAC0072BA92 /* 10 Great iPhone Tips.pdf */; };
+		F4BFB3E41DB61DAC0072BA92 /* camera-photo-tips.html in Resources */ = {isa = PBXBuildFile; fileRef = F4BFB3DE1DB61DAC0072BA92 /* camera-photo-tips.html */; };
+		F4BFB3E51DB61DAC0072BA92 /* foggy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4BFB3DF1DB61DAC0072BA92 /* foggy.jpg */; };
+		F4BFB3E61DB61DAC0072BA92 /* glico.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4BFB3E01DB61DAC0072BA92 /* glico.jpg */; };
+		F4BFB3E71DB61DAD0072BA92 /* Hello World.ppt in Resources */ = {isa = PBXBuildFile; fileRef = F4BFB3E11DB61DAC0072BA92 /* Hello World.ppt */; };
+		F4BFB3E81DB61DAD0072BA92 /* Why Appcoda.doc in Resources */ = {isa = PBXBuildFile; fileRef = F4BFB3E21DB61DAC0072BA92 /* Why Appcoda.doc */; };
+		F4BFB3EA1DB61DF30072BA92 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFB3E91DB61DF30072BA92 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4BFB3C51DB61C560072BA92 /* AirDropDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirDropDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BFB3C81DB61C560072BA92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4BFB3CD1DB61C560072BA92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4BFB3CF1DB61C560072BA92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4BFB3D21DB61C560072BA92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4BFB3D41DB61C560072BA92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4BFB3DA1DB61C8E0072BA92 /* AirDropTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirDropTableViewController.swift; sourceTree = "<group>"; };
+		F4BFB3DD1DB61DAC0072BA92 /* 10 Great iPhone Tips.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "10 Great iPhone Tips.pdf"; path = "resources/10 Great iPhone Tips.pdf"; sourceTree = SOURCE_ROOT; };
+		F4BFB3DE1DB61DAC0072BA92 /* camera-photo-tips.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "camera-photo-tips.html"; path = "resources/camera-photo-tips.html"; sourceTree = SOURCE_ROOT; };
+		F4BFB3DF1DB61DAC0072BA92 /* foggy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = foggy.jpg; path = resources/foggy.jpg; sourceTree = SOURCE_ROOT; };
+		F4BFB3E01DB61DAC0072BA92 /* glico.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = glico.jpg; path = resources/glico.jpg; sourceTree = SOURCE_ROOT; };
+		F4BFB3E11DB61DAC0072BA92 /* Hello World.ppt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Hello World.ppt"; path = "resources/Hello World.ppt"; sourceTree = SOURCE_ROOT; };
+		F4BFB3E21DB61DAC0072BA92 /* Why Appcoda.doc */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Why Appcoda.doc"; path = "resources/Why Appcoda.doc"; sourceTree = SOURCE_ROOT; };
+		F4BFB3E91DB61DF30072BA92 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4BFB3C21DB61C560072BA92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4BFB3BC1DB61C560072BA92 = {
+			isa = PBXGroup;
+			children = (
+				F4BFB3C71DB61C560072BA92 /* AirDropDemo */,
+				F4BFB3C61DB61C560072BA92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4BFB3C61DB61C560072BA92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4BFB3C51DB61C560072BA92 /* AirDropDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4BFB3C71DB61C560072BA92 /* AirDropDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F4BFB3DC1DB61D7B0072BA92 /* resources */,
+				F4BFB3C81DB61C560072BA92 /* AppDelegate.swift */,
+				F4BFB3CC1DB61C560072BA92 /* Main.storyboard */,
+				F4BFB3CF1DB61C560072BA92 /* Assets.xcassets */,
+				F4BFB3D11DB61C560072BA92 /* LaunchScreen.storyboard */,
+				F4BFB3D41DB61C560072BA92 /* Info.plist */,
+				F4BFB3DA1DB61C8E0072BA92 /* AirDropTableViewController.swift */,
+				F4BFB3E91DB61DF30072BA92 /* DetailViewController.swift */,
+			);
+			path = AirDropDemo;
+			sourceTree = "<group>";
+		};
+		F4BFB3DC1DB61D7B0072BA92 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				F4BFB3DD1DB61DAC0072BA92 /* 10 Great iPhone Tips.pdf */,
+				F4BFB3DE1DB61DAC0072BA92 /* camera-photo-tips.html */,
+				F4BFB3DF1DB61DAC0072BA92 /* foggy.jpg */,
+				F4BFB3E01DB61DAC0072BA92 /* glico.jpg */,
+				F4BFB3E11DB61DAC0072BA92 /* Hello World.ppt */,
+				F4BFB3E21DB61DAC0072BA92 /* Why Appcoda.doc */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4BFB3C41DB61C560072BA92 /* AirDropDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4BFB3D71DB61C560072BA92 /* Build configuration list for PBXNativeTarget "AirDropDemo" */;
+			buildPhases = (
+				F4BFB3C11DB61C560072BA92 /* Sources */,
+				F4BFB3C21DB61C560072BA92 /* Frameworks */,
+				F4BFB3C31DB61C560072BA92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirDropDemo;
+			productName = AirDropDemo;
+			productReference = F4BFB3C51DB61C560072BA92 /* AirDropDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4BFB3BD1DB61C560072BA92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = AppCoda;
+				TargetAttributes = {
+					F4BFB3C41DB61C560072BA92 = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F4BFB3C01DB61C560072BA92 /* Build configuration list for PBXProject "AirDropDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4BFB3BC1DB61C560072BA92;
+			productRefGroup = F4BFB3C61DB61C560072BA92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4BFB3C41DB61C560072BA92 /* AirDropDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4BFB3C31DB61C560072BA92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BFB3E51DB61DAC0072BA92 /* foggy.jpg in Resources */,
+				F4BFB3E81DB61DAD0072BA92 /* Why Appcoda.doc in Resources */,
+				F4BFB3D31DB61C560072BA92 /* LaunchScreen.storyboard in Resources */,
+				F4BFB3D01DB61C560072BA92 /* Assets.xcassets in Resources */,
+				F4BFB3CE1DB61C560072BA92 /* Main.storyboard in Resources */,
+				F4BFB3E31DB61DAC0072BA92 /* 10 Great iPhone Tips.pdf in Resources */,
+				F4BFB3E71DB61DAD0072BA92 /* Hello World.ppt in Resources */,
+				F4BFB3E61DB61DAC0072BA92 /* glico.jpg in Resources */,
+				F4BFB3E41DB61DAC0072BA92 /* camera-photo-tips.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4BFB3C11DB61C560072BA92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BFB3EA1DB61DF30072BA92 /* DetailViewController.swift in Sources */,
+				F4BFB3DB1DB61C8E0072BA92 /* AirDropTableViewController.swift in Sources */,
+				F4BFB3C91DB61C560072BA92 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4BFB3CC1DB61C560072BA92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4BFB3CD1DB61C560072BA92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4BFB3D11DB61C560072BA92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4BFB3D21DB61C560072BA92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4BFB3D51DB61C560072BA92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4BFB3D61DB61C560072BA92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4BFB3D81DB61C560072BA92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AirDropDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.AirDropDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		F4BFB3D91DB61C560072BA92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AirDropDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.AirDropDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4BFB3C01DB61C560072BA92 /* Build configuration list for PBXProject "AirDropDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BFB3D51DB61C560072BA92 /* Debug */,
+				F4BFB3D61DB61C560072BA92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4BFB3D71DB61C560072BA92 /* Build configuration list for PBXNativeTarget "AirDropDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BFB3D81DB61C560072BA92 /* Debug */,
+				F4BFB3D91DB61C560072BA92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4BFB3BD1DB61C560072BA92 /* Project object */;
+}
